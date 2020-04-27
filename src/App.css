@@ -4,12 +4,11 @@ body {
   padding: 0px;
   color: white;
   background-image: linear-gradient(to right, #283048, #859398);
-  font-size: 80%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .App {
-  max-width: 750px;
+  max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
