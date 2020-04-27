@@ -16,6 +16,14 @@ class block extends Component {
             if(time.charAt(i)==='T') break;
         }
         date = time.substring(0, i);
+        date = new Date(date)
+        date = date.toString()
+        var spaces = 0;
+        for(i=0; i<date.length; i++){
+            if(date.charAt(i)==' ') spaces++;
+            if(spaces==4) break;
+        }
+        date = date.substring(0, i);
         return date
     }
     render() {
