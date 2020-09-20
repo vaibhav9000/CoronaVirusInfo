@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Image from './components/image'
-import Data from './components/data'
+import Data from './components/Data'
 
 function App() {
   return (
